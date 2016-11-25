@@ -8,6 +8,8 @@ namespace Hastane.Entity
 {
     public class MyContext
     {
+
+
         public List<Hasta> Hastalar { get; set; } = new List<Hasta>();
         public List<Personel> Personeller { get; set; } = new List<Personel>();
         public List<Hemsire> Hemsireler { get; set; } = new List<Hemsire>();
